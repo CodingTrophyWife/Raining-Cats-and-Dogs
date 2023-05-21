@@ -1,39 +1,42 @@
 :root{
-    --bgcolormain: rgb(28, 28, 105);
-    --bgcolorsecond:#385170;
-    --btnsearch: lightblue;
-    --btnhistory: lightblue;
-    --fontcolor:white;
+    --mainbgcolor: lightblue;
+    --searchbutton: lightblue;
+    --historybutton: lightblue;
+    --fontcolor:black;
 }
+
 body {
     background-image: url("https://www.correllinsurance.com/files/bigstock-rain-on-umbrella_800x500630232484.jpeg");
     background-color:rgb(221, 151, 183);
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
-
-    
+    color: black;  
 }
+
 header{
-    background-color: var(--bgcolormain);
-    color:var(--fontcolor);
+    background-color: var(--mainbgcolor);
+    color: black;
     opacity: .5;
 }
+
 .btn-search{
-    background-color:var(--btnsearch);
-    color: var(--fontcolor);
-    
+    background-color:var(--searchbutton);
+    color: var(--fontcolor);    
 }
+
 .btn-history{
-    background-color: var(--btnhistory);
+    background-color: var(--historybutton);
 }
+
 #current-day{
     visibility: hidden;
 }
+
 #search-history-screen {
     visibility: hidden;
 }
 
 #five-day-display-main{
     visibility: hidden;
+    background-color: lightblue;
 }
